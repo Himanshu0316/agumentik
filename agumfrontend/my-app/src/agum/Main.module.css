@@ -1,0 +1,309 @@
+.btn1{
+    color: tomato;
+    background-color: white;
+    font-weight: bold;
+    font-size: 16px;
+    width: 50%;
+    height: 50px;
+    border: 0;
+    outline: 1px;
+}
+.btn2{
+    color: white;
+    background-color: tomato;
+    font-weight: bold;
+    font-size: 16px;
+    width: 50%;
+    height: 50px;
+    border: 0;
+    outline: 1px;
+}
+.Main{
+    width: 100%; 
+    height: 650px;
+    
+    background: rgb(26, 2, 32);
+    background-image: url("https://images.unsplash.com/photo-1534237710431-e2fc698436d0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YnVpbGRpbmd8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60");
+    background-repeat: no-repeat;
+    background-size: 500px;
+    background-position: right;
+
+}
+.Home{
+    width: 100%;
+    
+}
+.Navbar{
+     width: 100%;
+     height: 50px;
+     border: 1px solid black;
+     background-color:rgba(247, 239, 239, 0.1);
+     display: flex;
+     justify-content: space-between;
+     
+     align-items: center;
+}
+.navLinks{
+    margin: 10px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+.h1Heading{
+    color: aqua;
+}
+.p1Heading{
+    color:#8c8d8d;
+}
+.Box1{
+    margin-top: 50px;
+    width: 30%;
+    margin-left: 200px;
+}
+.Box2{
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 200px;
+    margin-top: 50px;
+    width: 54%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Box3{
+    margin-left: 200px;
+    margin-top: 50px;
+    width: 40%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.formTag{
+    width: 30%;
+    height: 40px;
+}
+.Icons{
+    color: dodgerblue;
+    border-radius: 50%;
+    
+}
+.Boxin{
+    width: 49%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.loginBox{
+    margin: auto;
+    margin-top: 20px;
+    width: 40%;
+    height:500px;
+    background-color: white;
+    border-radius: 10px;
+}
+.loginButton{
+    width: 100%;
+    height: 50px;
+}
+.logDiv{
+    width: 100%;
+    margin: auto;
+    background-color: white;
+    
+}
+.logDivs{
+    width: 50%;
+    margin: auto;
+    background-color: white;
+    
+}
+.p1Tag{
+    color: black;
+}
+.formDivs{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.flexDiv{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.imgUrl{
+    margin-left: 10px;
+    margin-top: 10px;
+ width: 150px;
+ height: 100px;
+ border-radius: 5px;
+}
+.propTags{
+    margin-top: 200px; 
+    text-align: center; 
+}
+.pTags{
+    text-align: center;
+    color:#8c8d8d;
+}
+.flexedDiv{
+    margin-top: 10px;
+    padding: 10px;
+    background-color: white;
+    width: 170px;
+    height: 150px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+.flexedDiv:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.inPuts{
+    width: 50%;
+    height: 30px;
+    outline: 1px;
+    margin: auto;
+    margin-top: 20px;
+    
+}
+.Reg{
+    width: 100px;
+    height: 30px;
+    margin-right: 10px;
+    background-color: dodgerblue;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+@media only screen and (min-width:0px) and (max-width:785px){
+    .Main{
+        width: 100%; 
+         height: 900px;
+        
+        background: rgb(26, 2, 32);
+        background-image: url("https://images.unsplash.com/photo-1534237710431-e2fc698436d0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YnVpbGRpbmd8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60");
+        background-repeat: no-repeat;
+        background-size: 100% 300px;
+        background-position-y: 600px;
+    
+    }
+    .flexDiv{
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .propTags{
+        margin-top: 500px; 
+        text-align: center; 
+    }
+    .imgUrl{
+        margin-left: 10px;
+        margin-top: 10px;
+     width: 96%;
+     height: 150px;
+     border-radius: 5px;
+    }
+    .pTags{
+        text-align: center;
+        color:#8c8d8d;
+    }
+    .flexedDiv{
+        margin-top: 10px;
+        padding: 10px;
+        background-color: white;
+        width: 80%;
+        height: 200px;
+        border-radius: 5px;
+        box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    }
+    .Navbar{
+        width: 100%;
+        height: 50px;
+        border: 1px solid black;
+        background-color:rgba(247, 239, 239, 0.1);
+        display: flex;
+        justify-content: space-between;
+        
+        align-items: center;
+   }
+   .navLinks{
+       margin: 10px;
+       color: white;
+       font-weight: bold;
+       text-decoration: none;
+   }
+   .h1Heading{
+       color: aqua;
+   }
+   .p1Heading{
+       color:#8c8d8d;
+   }
+   .Box1{
+       margin-top: 50px;
+       width: 80%;
+       margin:auto;
+   }
+   .Box2{
+       background-color: white;
+       border-radius: 10px;
+       margin: auto;
+       margin-top: 50px;
+       width: 80%;
+       height: 70px;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+   }
+   .Box3{
+       margin:auto;
+       margin-top: 50px;
+       width: 80%;
+       height: 50px;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: flex-start;
+       
+   }
+   .formTag{
+       width: 30%;
+       height: 40px;
+   }
+   .Icons{
+       color: dodgerblue;
+       border-radius: 50%;
+       
+   }
+   .Boxin{
+       width: 49%;
+       display: flex;
+       justify-content: space-around;
+       align-items: center;
+       
+   }
+   .inPuts{
+    width: 90%;
+    height: 30px;
+    outline: 1px;
+    margin: auto;
+    margin-top: 20px;
+    
+}
+
+}
